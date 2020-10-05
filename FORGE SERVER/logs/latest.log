@@ -1,0 +1,38 @@
+[19:28:25] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[19:28:25] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[19:28:25] [Server thread/INFO]: Loading properties
+[19:28:25] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
+[19:28:25] [Server thread/INFO]: Default game type: CREATIVE
+[19:28:25] [Server thread/INFO]: Generating keypair
+[19:28:26] [Server thread/INFO]: Starting Minecraft server on 192.168.137.1:25565
+[19:28:26] [Server thread/INFO]: Using default channel type
+[19:28:26] [Server thread/INFO]: Preparing level "world"
+[19:28:27] [Server thread/INFO]: Loaded 488 advancements
+[19:28:27] [Server thread/INFO]: Preparing start region for level 0
+[19:28:28] [Server thread/INFO]: Preparing spawn area: 51%
+[19:28:28] [Server thread/INFO]: Done (1.977s)! For help, type "help" or "?"
+[19:28:39] [User Authenticator #1/INFO]: UUID of player TRG_rouge is 1d6dde36-72c5-4eb3-bff6-159c2c828e26
+[19:28:39] [Server thread/INFO]: TRG_rouge[/192.168.137.1:60546] logged in with entity id 0 at (1004.4581364721088, 102.0, -35.56791773950961)
+[19:28:39] [Server thread/INFO]: TRG_rouge joined the game
+[19:29:11] [Server thread/INFO]: TRG_rouge lost connection: Disconnected
+[19:29:11] [Server thread/INFO]: TRG_rouge left the game
+[19:29:16] [Server thread/INFO]: Stopping server
+[19:29:16] [Server thread/INFO]: Saving players
+[19:29:16] [Server thread/INFO]: Saving worlds
+[19:29:16] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[19:29:16] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[19:29:16] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[19:29:16] [Server Shutdown Thread/INFO]: Stopping server
